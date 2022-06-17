@@ -24,19 +24,19 @@ function App() {
   {/* left side */}
       <Card>
         {/* img profile */}
-      <Card.Img variant="top" src="./img/profile.jpg" className='profilimg'/>
+      <Card.Img variant="top" src="./img/profile.jpg" className='profilimg'alt="profil"/>
       <Card.Body className='Group'>
         <Card.Title  >Social Media</Card.Title>
           <Card.Text>
     {/* <!--  Social media --> */}
       {/* <!-- Facebook --> */}
-      <a href='#'><img src='./img/facebook.jpg' className='iim'/></a>
+      <a href='#'><img src='./img/facebook.jpg' className='iim'alt="facebook logo"/></a>
       {/* <!-- Gmail --> */}
-      <a href='#'><img src='./img/email.png' className='iim'/></a>
+      <a href='#'><img src='./img/email.png' className='iim'alt="gmail logo"/></a>
       {/* <!-- whats app --> */}
-      <a href='#'><img src='./img/whatsapp.png'className='iim'/></a>
+      <a href='#'><img src='./img/whatsapp.png'className='iim'alt="what app logo"/></a>
       {/* <!-- Github --> */}
-      <a href='#'><img src='./img/github.png'className='iim'/></a>
+      <a href='#'><img src='./img/github.png'className='iim'alt="github logo"/></a>
     {/* <!--  Social media --> */}
           </Card.Text>
         </Card.Body>  
@@ -82,13 +82,13 @@ function App() {
           <snap>
           {/* My Team 
            heda /marwa/amany/mabroka/fatema/hajer/fatema */}
-      <a href='#'><img src='./img/heba.jpg' className='iim'/></a>
-      <a href='#'><img src='./img/marwa.jpg' className='iim'/></a>
-      <a href='#'><img src='./img/amany.jpg'className='iim'/></a>
-      <a href='#'><img src='./img/mab.jpg'className='iim'/></a>
-      <a href='#'><img src='./img/fate.jpg' className='iim'/></a>
-      <a href='#'><img src='./img/haj.jpg' className='iim'/></a>
-      <a href='#'><img src='./img/fatee.jpg'className='iim'/></a>
+      <a href='#'><img src='./img/heba.jpg' className='iim' alt="person1"/></a>
+      <a href='#'><img src='./img/marwa.jpg' className='iim'alt="person2"/></a>
+      <a href='#'><img src='./img/amany.jpg'className='iim'alt="person3"/></a>
+      <a href='#'><img src='./img/mab.jpg'className='iim'alt="person4"/></a>
+      <a href='#'><img src='./img/fate.jpg' className='iim'alt="person5"/></a>
+      <a href='#'><img src='./img/haj.jpg' className='iim'alt="person6"/></a>
+      <a href='#'><img src='./img/fatee.jpg'className='iim'alt="person7"/></a>
           </snap>
         </Card.Body>
       </Card>

@@ -1,0 +1,27 @@
+.App {
+  margin: 10px;
+}
+
+.profilimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  }
+
+  .Group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iim{
+  width: 4rem;
+  margin: 0 10px;
+}
+
+.footer{
+  margin:0  12px;
+}
+
